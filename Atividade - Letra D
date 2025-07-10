@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    float tempCelsius, tempFah;
+
+    printf ("Informe a temperatura em Celsius: ");
+    scanf ("%f", &tempCelsius);
+
+    tempFah = (9 * tempCelsius + 160) / 5;
+
+    printf ("A temperatura em Fahrenheit é: %f", tempFah);
+
+    return 0;
+}
