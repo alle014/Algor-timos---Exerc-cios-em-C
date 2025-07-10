@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int numero1, numero2, adresul, subresul, multresul, divresul, restoresul;
+
+    printf ("Digite um numero inteiro qualquer: ");
+    scanf ("%d", &numero1);
+    printf ("Digite outro numero inteiro qualquer: ");
+    scanf ("%d", &numero2);
+
+    adresul = numero1 + numero2;
+    subresul = numero1 - numero2;
+    multresul = numero1 * numero2;
+    divresul = numero1/numero2;
+    restoresul = numero1 % numero2;
+
+    printf ("Resultado das operações entre os numeros digitados: \n");
+    printf ("Soma: %d\n", adresul);
+    printf ("Subtração: %d\n", subresul);
+    printf ("Multiplicação: %d\n", multresul);
+    printf ("Quociente: %d\n", divresul);
+    printf ("Resto: %d\n", restoresul);
+
+    return 0;
+}
