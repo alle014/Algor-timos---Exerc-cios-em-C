@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Informe um numero: ");
+    scanf("%d", &a);
+    printf("Informe outro numero: ");
+    scanf("%d", &b);
+
+    if (a%b==0){
+        printf("Os numeros são multiplos.");
+    }else{
+        printf("Os numeros não são multiplos.");
+    }
+}
