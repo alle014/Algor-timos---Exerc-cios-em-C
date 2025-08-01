@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int digitospre,digito1,digito2,digito3,digito4,digito5;
+
+    printf("Diga um numero: ");
+    scanf("%d", &digitospre);
+
+    if (digitospre < 10000 || digitospre > 99999)
+    {
+        printf("Número inválido. Ponha um número com 5 dígitos.");
+    } else {
+    digito1 = digitospre/10000;
+    digito2 = (digitospre/1000) % 10;
+    digito3 = (digitospre/100) % 10;
+    digito4 = (digitospre/10) % 10;
+    digito5 = digitospre % 10;
+
+    printf("Os digitos são: %d %d %d %d %d", digito1,digito2,digito3,digito4,digito5);
+
+    return 0;
+    }
+    
+}
