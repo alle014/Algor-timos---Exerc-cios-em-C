@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int n1q,n2q,n3q,n4q,n5q,n6q,n7q,n8q,n9q,n10q;
+    int n1c,n2c,n3c,n4c,n5c,n6c,n7c,n8c,n9c,n10c;
+
+    n1q = 1 * 1;
+    n2q = 2 * 2;
+    n3q = 3 * 3;
+    n4q = 4 * 4;
+    n5q = 5 * 5;
+    n6q = 6 * 6;
+    n7q = 7 * 7;
+    n8q = 8 * 8;
+    n9q = 9 * 9;
+    n10q = 10 * 10;
+
+    n1c = 1 * 1 * 1;
+    n2c = 2 * 2 * 1;
+    n3c = 3 * 3 * 3;
+    n4c = 4 * 4 * 4;
+    n5c = 5 * 5 * 5;
+    n6c = 6 * 6 * 6;
+    n7c = 7 * 7 * 7;
+    n8c = 8 * 8 * 8;
+    n9c = 9 * 9 * 9;
+    n10c = 10 * 10 * 10;
+
+    printf(" 1\t%d\t%d\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n",n1q,n1c);
+
+    return 0;
+}
