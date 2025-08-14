@@ -8,6 +8,10 @@ int main() {
     printf("Escolha a operação: ");
     scanf("%d", &op);
 
+    if (op < 1 || op > 4) {
+        printf("Operação inválida!\n");
+    }
+
     printf("Digite dois números: ");
     scanf("%f %f", &a, &b);
 
@@ -22,8 +26,6 @@ int main() {
             printf("Resultado: %.2f\n", a / b);
         else
             printf("Erro: divisão por zero!\n");
-    } else
-        printf("Opção inválida.\n");
-
+    } 
     return 0;
 }
